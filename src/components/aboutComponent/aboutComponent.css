@@ -1,0 +1,35 @@
+.about-container { 
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 1rem ; 
+} 
+
+.about-container__title {
+    flex: 1;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+.about-container h3{
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    padding-bottom: 20px; 
+}  
+
+.about .about-container:nth-child(2) h3,
+.about .about-container:nth-child(3) h3 {
+    display: none;
+}
+
+.about__heading h3 {
+    font-size: 32px;
+    padding: 3rem .5rem;
+}
+
+.about-container__text {
+    color: #fff;
+}

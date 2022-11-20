@@ -1,0 +1,400 @@
+.heaader-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/earth.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.heaader-container-content{
+  flex: 1;
+  display: flex;
+  width: 90vw;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+  padding: 2rem 2rem 1rem;
+}
+
+.heaader-container-content h1{
+  font-size: 62px;
+  letter-spacing: -0.04em; 
+}
+
+.paragraph__container{
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+}
+
+.paragraph__container :nth-child(1){
+  width: 50%;
+  background: rgba(251, 136, 70, 0.466) ;
+}
+
+.paragraph__container :nth-child(2){
+  align-self: center;
+  width: 50%;
+  text-align: center;
+  background: rgba(8, 189, 86, 0.481) ;
+}
+.paragraph__container :nth-child(3){
+  align-self: flex-end;
+  width: 40%;
+  text-align: end;
+  background: rgba(255, 0, 191, 0.4) ;
+}
+
+.heaader-container-content p {
+    color: var(--color-text);
+    font-size: 30px;
+    line-height: 27px;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.519);
+    box-shadow: 0 2px 8px rgba(2, 0, 4, 0.977); 
+}
+
+.heaader-container-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heaader-container-image img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px){
+  .heaader-container{
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .heaader-container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 6rem;
+  }
+
+  .heaader-container h1{
+    text-align: center;
+    font-size: 33px;
+  }
+
+ .logo__bg{
+  width: 30%;
+ }
+
+  .paragraph__container{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paragraph__container p {
+    margin: 15px auto;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+
+  }
+  
+  .paragraph__container p:nth-child(1){
+    width: 80%;
+  }
+  
+  .paragraph__container p:nth-child(2){
+    width: 70%;
+  }
+  
+  .paragraph__container p:nth-child(3){
+    width: 50%;
+    background: rgba(255, 0, 191, 0.4) ;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 468px){
+  .heaader-container-content{
+    width: 90vw;
+    margin-top: 4rem;
+  }
+  .paragraph__container p {
+    margin: 7px auto;
+    padding: 7px;
+  }
+}
+
+
+/* Animaciones */
+.flicker-in {
+	-webkit-animation: flicker-in 4s linear both;
+	animation: flicker-in 4s linear both;
+}
+
+ @-webkit-keyframes flicker-in {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    10.1% {
+      opacity: 1;
+    }
+    10.2% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }
+    20.1% {
+      opacity: 1;
+    }
+    20.6% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 0;
+    }
+    30.1% {
+      opacity: 1;
+    }
+    30.5% {
+      opacity: 1;
+    }
+    30.6% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+    }
+    45.1% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 1;
+    }
+    55.1% {
+      opacity: 0;
+    }
+    57% {
+      opacity: 0;
+    }
+    57.1% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    60.1% {
+      opacity: 0;
+    }
+    65% {
+      opacity: 0;
+    }
+    65.1% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    75.1% {
+      opacity: 0;
+    }
+    77% {
+      opacity: 0;
+    }
+    77.1% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    85.1% {
+      opacity: 0;
+    }
+    86% {
+      opacity: 0;
+    }
+    86.1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes flicker-in {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    10.1% {
+      opacity: 1;
+    }
+    10.2% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }
+    20.1% {
+      opacity: 1;
+    }
+    20.6% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 0;
+    }
+    30.1% {
+      opacity: 1;
+    }
+    30.5% {
+      opacity: 1;
+    }
+    30.6% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+    }
+    45.1% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 1;
+    }
+    55.1% {
+      opacity: 0;
+    }
+    57% {
+      opacity: 0;
+    }
+    57.1% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    60.1% {
+      opacity: 0;
+    }
+    65% {
+      opacity: 0;
+    }
+    65.1% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    75.1% {
+      opacity: 0;
+    }
+    77% {
+      opacity: 0;
+    }
+    77.1% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    85.1% {
+      opacity: 0;
+    }
+    86% {
+      opacity: 0;
+    }
+    86.1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+.slide-in-top {
+	-webkit-animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+}
+  
+  
+/* .motion_header_p  */
+.motion_header_p  {
+	-webkit-animation: motion_header_p 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: motion_header_p 1s cubic-bezier(0.215, 0.610, 0.355, .000) both ;
+}
+	
+ @-webkit-keyframes motion_header_p {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes motion_header_p {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
