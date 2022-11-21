@@ -20,7 +20,7 @@ const Blog = () => {
             desc={`
             This is a user management dashboard. The administrator can manage all the employees and their tasks performed. In the backend we use node-js express and mongodb. On the frontend we use React . Everything in project is stored in the render platform.`}
             url="https://merci4tech.onrender.com/"
-            url2="https://github.com/mercedes4developers/mern-api-server"
+            url2="https://github.com/Merci4dev/MernApp-employee-panel-andmin"
           /> 
 
         <Article 
@@ -29,7 +29,7 @@ const Blog = () => {
 
             desc={`Online store developed with React and Nextjs on the frontend and Sanity on the backend site. Stripe is used as a payment method. Todas la funcinalidades habituales de una tienda en linea estan implementadas. This project is hosted on github page as well as versel platform.`}
             url="https://ecomerce-sanity-next-stripe-4lehg53tv-mercedes4developers.vercel.app/"
-            url2="https://github.com/mercedes4developers/ecomerce-sanity-next-stripe"
+            url2="https://github.com/Merci4dev/Nextjs-ecomerce-app"
           /> 
 
           <Article 
@@ -44,21 +44,24 @@ const Blog = () => {
             title="Tasks Application"
             desc={`Application to add tasks. Added tasks are stored in local storage. Tasks marked as check can be deleted.This project is hosted on github page `}
             url="https://mercedes4developers.github.io/tasks-creator/"
+            url2="https://github.com/Merci4dev/React-tasks-creator"
           /> 
 
           <Article imgUrl={blog04} 
             date="Sep 26, 2022" 
             title="React Website"
             // eslint-disable-next-line react/jsx-no-duplicate-props
-            url="https://mercedes4developers.github.io/react-single-website-page/"
             desc={`React Website. This website is perfect to build a platform with a backend site. This website uses the best practices of react. This project is hosted on github page `}
+            url="https://mercedes4developers.github.io/react-single-website-page/"
+            url2="https://github.com/Merci4dev/React-web-page"
           /> 
 
           <Article imgUrl={blog05} 
             date="Sep 26, 2022" 
             title="React Website Portfolio"
-            url="https://mercede-portfolio.onrender.com/"
             desc={`React Website. This website uses the best practices of react. Stores a list of the projects that I created for myself. This project is hosted on github page as well as versel platform.`}
+            url="https://mercede-portfolio.onrender.com/"
+            url2="https://github.com/Merci4dev/React-portfolio"
 
           /> 
 
