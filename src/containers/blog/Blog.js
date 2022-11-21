@@ -44,7 +44,7 @@ const Blog = () => {
             title="Tasks Application"
             desc={`Application to add tasks. Added tasks are stored in local storage. Tasks marked as check can be deleted.This project is hosted on github page `}
             url="https://mercedes4developers.github.io/tasks-creator/"
-            url2="https://github.com/Merci4dev/React-tasks-creator"
+            url2="https://react-contact-app-crud.onrender.com/"
           /> 
 
           <Article imgUrl={blog04} 
