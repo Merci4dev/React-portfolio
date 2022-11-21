@@ -53,7 +53,7 @@ const Blog = () => {
             // eslint-disable-next-line react/jsx-no-duplicate-props
             desc={`React Website. This website is perfect to build a platform with a backend site. This website uses the best practices of react. This project is hosted on github page `}
             url="https://mercedes4developers.github.io/react-single-website-page/"
-            url2="https://github.com/Merci4dev/React-web-page"
+            url2="https://react-web-page.onrender.com/"
           /> 
 
           <Article imgUrl={blog05} 
